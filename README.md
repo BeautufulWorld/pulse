@@ -19,7 +19,6 @@ def animate_pulsing_heart():
     ax.set_xticks([])
     ax.set_yticks([])
     ax.set_title("💖 Pulsing Heart Animation ")
-    
     t = np.linspace(0, 2 * np.pi, 100)
     x, y = heart_shape(t)
     line, = ax.plot(x, y, "r", linewidth=3)
