@@ -15,6 +15,7 @@ def update(frame, line):
 def animate_pulsing_heart():
     fig, ax = plt.subplots()
     ax.set_xlim(-0.6, 0.6)
+    //nice
     ax.set_ylim(-0.6, 0.6)
     ax.set_xticks([])
     ax.set_yticks([])
